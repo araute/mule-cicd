@@ -1,0 +1,22 @@
+http:
+  port: "8081"
+  
+
+sfdc:
+  username: "arautela@psi-it.com.hud2.mfedev"
+  password: "Job@12345678900"
+  token:  "cKZVUpaOL7CyxpiSn6VkjgiO"
+  
+  
+  
+file:
+  accountsDir: "/Users/arautela/Downloads/APDevFundamentals4.4_studentFiles_SP_05oct2021/APDevFundamentals4.4_studentFiles_SP_05oct2021/resources"
+  
+
+db:
+  host: "mudb.learn.mulesoft.com"
+  port: "3306"
+  user: "mule"
+  password: "mule"
+  database: "training"    
+  
