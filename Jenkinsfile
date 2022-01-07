@@ -3,8 +3,8 @@ pipeline {
   agent any
   environment {
     //adding a comment for the commit test
-    DEPLOY_CREDS = credentials('deploy-anypoint-user')
-    MULE_VERSION = '4.3.0'
+    DEPLOY_CREDS = credentials('deploy-anypoint-user-jenkins')
+    MULE_VERSION = '4.4.0'
     BG = "PSI"
     WORKER = "Micro"
   }
