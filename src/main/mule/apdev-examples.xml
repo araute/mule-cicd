@@ -28,6 +28,7 @@ http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/cu
 	"fullName" : attributes.queryParams.fname
 }]]]></http:query-params>
 		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="ba29761a-9551-4614-bed4-9d960d125d29" />
 	</flow>
 	<sub-flow name="apdev-examplesSub_Flow" doc:id="b67e1d22-46a7-4217-90c3-f7a9d4b37a19" >
 		<set-variable value="#[message.attributes.queryParams.fname]" doc:name="firstName" doc:id="448f710c-581a-4777-9d00-aa5f102a859e" variableName="firstName" />
