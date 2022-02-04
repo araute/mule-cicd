@@ -20,6 +20,7 @@ http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/cu
 		<vm:publish queueName="goodbye" doc:name="VM goodbye" doc:id="b5a1414e-a7c5-43fd-99b7-ce9702c36454" config-ref="VM_Config"/>
 		<logger level="INFO" doc:name="fullName" doc:id="99265f6c-8837-4f00-b076-2df7f0c02720" message="#[attributes.queryParams.fullName]"/>
 		<logger level="INFO" doc:name="Logger" doc:id="94c70f9c-9f56-4818-a12a-d699a688dfca" />
+		<logger level="INFO" doc:name="Logger" doc:id="077cefa2-afd4-47e9-827c-afc272419524" />
 	</flow>
 	<flow name="privateFlow" doc:id="98b80db0-f6e6-4a0d-8ad7-99bcdbf0e30e">
 		<http:request method="GET" doc:name="GET /goodbye" doc:id="fef8810c-cebf-4945-8825-c6bde96f93b8" config-ref="HTTP_Request_configuration" path="/goodbye">
